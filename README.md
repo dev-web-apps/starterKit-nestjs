@@ -1,12 +1,8 @@
-<!-- <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
-</p> -->
-
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://user-images.githubusercontent.com/36701714/160392849-d6988041-e571-4f09-b59f-59d5f01eeda4.png" width="320" alt="Nest Logo" /></a>
-  
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
 </p>
-<!-- ![figma-logo](https://user-images.githubusercontent.com/36701714/160393793-3ccdd679-0aa4-4efe-8dcd-96abaf2d3be2.png) -->
+
+  
 
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
@@ -28,14 +24,6 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-### Figma Designs
-
-[Figma Design](https://www.figma.com/file/l2nKqqGKGDhvk5uP5VUAcr/Sage-Advice?node-id=0%3A1)
-
-### Documentation
-
-[Uploading SPECS.docx…]()
-
 
 
 # Run Postgres docker container
@@ -45,6 +33,8 @@
 docker run -d --name sageAdvice -p 5434:5432 -e POSTGRES_PASSWORD=postgres -e PGDATA=/var/lib/postgresql/data/pgdata -v <YOUR_LOCAL_PATH>:/var/lib/postgresql/data postgres:14
 ```
 <b> <YOUR_LOCAL_PATH> ==> please replace this line to your local path where you want to mount postgres data </b>
+
+
   
 # Installation
   
